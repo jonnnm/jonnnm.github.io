@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(227, 227, 227);
+    background-color: rgb(246, 246, 246);
     background-size: cover;
     margin: 0;
     padding: 0;
@@ -84,10 +84,13 @@ h1 {
     margin-top: 80px;
 }
 h2 {
-    display: block;
-    text-align: center;
-    color: white;
+    
+    color: rgb(0, 0, 0);
     font-size: 25px;
+    margin-left: 40px;
+    top: 50px; 
+    left: 50px; 
+    
 }
 .social-icons {
     display:flex ;
@@ -140,14 +143,18 @@ nav ul li#apply a {
     text-decoration: none;
     margin: 0;
 }
-nav button[type="submit"] {
-background-color: #1d4e2b;
-color: #ffffff;
+button {
+background-color: #abb1ad;
+color:#ffffff;
 border: none;
 padding: 15px 30px;
 border-radius: 20px;
 cursor: pointer;
 font: inherit;
+text-decoration: none;
+color: inherit; 
+display: flex;
+align-items: center;
 }
 
 nav button[type="submit"] a {
@@ -190,21 +197,96 @@ align-items: center;
   background: grey;
   color: white;
 }
-.city-container {
+.city-container{
+    margin-left: 40px;  
+    margin-right: 300px;
 
-            margin: 20px;
-        }
+}
+.city-image {
+    width:  300px;
+    height: 200px;
+    margin-right: 40px;
+    border-radius: 8px;
 
-        .city-image {
-            width:  500px;
-            height: 450px;
-            margin-right: 20px;
-        }
+}
 
-        .text-container {
-            max-width: 300px;
-        }
 
+.city-description {
+    font-size: 1em;
+    top: 50px;
+    bottom: 50px;
+  
+}
+.city-text {
+    margin-left: 20px;
+
+}
+.city {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    text-align: left;
+    flex-direction: row; /* Added to display in a row */
+
+}
+.additional-box {
+    background-color: #ffffff;
+    width: 200px;
+    height: 300px;
+    border-radius: 8px;
+    position: absolute;
+    top: 38%;
+    transform: translateY(-50%);
+   right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+}
+
+.additional-box-text {
+    color: #000000;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.rectangle-container {
+    display: flex;
+    flex-direction: column; /* Updated to column */
+    align-items: center; /* Centered horizontally */
+    margin-top: 10px;
+}
+
+.rectangle {
+    background-color: #ffffff;
+    width: 150px;
+    height: 50px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction:column; /* Updated to display in a row */
+    align-items: flex-start;
+    justify-content: center;
+    color: #000000;
+    margin-bottom: 10px; 
+    border: 2px solid #ccc;
+    padding: 2px;
+   
+}
+
+.rectangle-text {
+    font-size: 12px;
+    margin-top: 5px;
+}
+.rectangle img {
+    width: 20px; /* Adjust the width of the image */
+    height: auto; /* Maintain aspect ratio */
+   position:absolute;
+   top:absolute;
+   right: 50px;
+}
 
 
 

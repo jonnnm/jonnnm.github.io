@@ -194,7 +194,8 @@ align-items: center;
             display: flex;
             margin: 20px;
         }
-.city-image {
+
+        .city-image {
             width: 200px;
             height: 150px;
             margin-right: 20px;
@@ -203,7 +204,6 @@ align-items: center;
         .text-container {
             max-width: 300px;
         }
-
 
 
 

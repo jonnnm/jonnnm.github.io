@@ -3,6 +3,9 @@ body {
     background-size: cover;
     margin: 0;
     padding: 0;
+    animation: fadeInAnimation ease 3s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
 }
 
 header {
